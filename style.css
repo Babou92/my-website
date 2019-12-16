@@ -1,0 +1,74 @@
+.title {
+	background-image:url(images/imagehaut.jpg);
+	width: 1650px;
+	height: 600px;
+	border:1px solid rgba(255,145,0,.5);
+	margin: 40px auto;
+	vertical-align: middle;
+}
+.title h1 {
+	background-color: rgba(255,165,0,.5);
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(255,165,0,.5);
+ 	border-radius: 4px;
+ 	margin-top: 200px;
+ 	font-family: cursive;
+ 	font-size: 3em;
+ 	color: black;
+}
+.title a {
+	background-color: rgba(255,165,0,.5);
+	font-size: 3em;
+	margin: 40px;
+	color: orange;
+	text-decoration: none;
+	padding: 10px;
+	transition: 1s;
+}
+.title a:hover {
+	font-size: 4em;
+}
+
+body {
+	background: rgba(255,145,0,.5);
+}
+
+.ball {
+	display: inline-flex;
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	margin-right: 75px;
+	margin-bottom: 150px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 10px white;
+	border-radius: 20px;
+	transition: 1s;
+	
+}
+.ball img {
+	border-radius: 20px;
+	transition: 1s ease;
+}
+
+.ball p {
+	position: absolute;
+	text-align: center;
+	margin-top: 320px;
+	font-family: cursive;
+	color: brown;
+	transition: 1s ease;
+	opacity:0;
+}
+.ball:hover {
+	border-radius: 50px;
+	transform: rotate(-20deg);
+}
+.ball:hover img {
+	border-radius: 50px;
+}
+.ball:hover p {
+	opacity:1;
+	font-size:1.5em;
+
+}
